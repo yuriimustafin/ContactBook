@@ -16,8 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactBook.BLL\ContactBook.Domain.csproj" />
     <ProjectReference Include="..\ContactBook.DAL\ContactBook.DAL.csproj" />
+    <ProjectReference Include="..\ContactBook.Domain\ContactBook.Domain.csproj" />
   </ItemGroup>
 
 </Project>

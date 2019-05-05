@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook.Web", "ContactB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook.DAL", "ContactBook.DAL\ContactBook.DAL.csproj", "{58D1FA61-7F87-4613-A13E-22E4B8B11104}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook.Domain", "ContactBook.BLL\ContactBook.Domain.csproj", "{3063243A-97DF-491C-8283-BCF8B14907CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactBook.Domain", "ContactBook.Domain\ContactBook.Domain.csproj", "{3063243A-97DF-491C-8283-BCF8B14907CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactBook.CompositionRoot", "ContactBook.CompositionRoot\ContactBook.CompositionRoot.csproj", "{7F4A4A73-899B-4C3D-94D7-957767148483}"
 EndProject

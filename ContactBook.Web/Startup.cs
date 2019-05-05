@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using ContactBook.Web.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+//using ContactBook.CompositionRoot;
 
 namespace ContactBook.Web
 {
@@ -39,6 +40,8 @@ namespace ContactBook.Web
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            //AppConfigurator.ConfigureApplication(services);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
